@@ -1,101 +1,96 @@
 import Image from "next/image";
+import About from "@/components/About";
+import Button from "@/components/Butoon";
+import FoodCategory from "@/components/FoodCategory";
+import ExtraordinaryTaste from "@/components/ExtraordinaryTaste";
+import Statistics from "@/components/Statistics";
+import Menu from "@/components/Menu";
+import FoodTeam from "@/components/FoodTeam";
+import DessertMenu from "@/components/DessertMenu";
+import Testimonials from "@/components/Testimonials";
+import RestaurantProcess from "@/components/RestaurantProcess";
+import BlogPost from "@/components/BlogPost";
+
+
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+    <main className="min-h-screen bg-[#0D0D0D]">
+      {/* Hero Section */}
+      <div className="relative min-h-screen w-full">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image 
+            src="/herobg.png" 
+            alt="Hero background" 
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/80" />
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+
+        {/* Content */}
+        <div className="relative z-10 h-full container lg:left-10 mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="absolute left-0 h-full hidden md:block">
+            <Image 
+              src="/herosideline.png" 
+              alt="Decorative line" 
+              width={25} 
+              height={500}
+              className="h-full w-auto"
+            />
+          </div>
+          
+          {/* Two-column layout */}
+          <div className="flex flex-col lg:flex-row items-center justify-between h-full py-20 lg:py-0 gap-10 lg:gap-0">
+            {/* Left column - Text content */}
+            <div className="flex flex-col space-y-6 lg:space-y-8 max-w-xl text-center lg:text-left">
+              
+              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
+                <span className='text-[#F7A600]'>The</span> Art of speed 
+                <br className="hidden sm:block" /> food Quality   
+              </h1>
+              <p className="text-gray-300 text-base md:text-lg lg:text-xl max-w-2xl">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Varius sed pharetra dictum neque massa congue
+              </p>  
+              <div className="flex justify-center lg:justify-start w-full">
+                <Button size="lg">
+                  See Menu
+                </Button>
+              </div>
+            </div>
+
+            {/* Right column - Hero image */}
+            <div className="relative w-full lg:w-auto">
+              <Image 
+                src="/hero.png" 
+                alt="hero" 
+                width={570} 
+                height={570} 
+                className="object-contain w-full h-auto max-w-[670px] mx-auto"
+                priority
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Other Sections Container */}
+      <div className="w-full sm:w-full md:w-[80vw] lg:w-[80vw] mx-auto xl:w-[80vw] 2xl:w-[80vw]">
+        <About />
+        <FoodCategory />
+        <ExtraordinaryTaste />
+        <Statistics />
+        <Menu />
+        <FoodTeam />
+        <Testimonials />
+        <RestaurantProcess />
+        <BlogPost />
+      </div>
+      
+    </main>
   );
 }
