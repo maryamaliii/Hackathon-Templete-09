@@ -6,7 +6,7 @@ const ProfileCard = () => {
   return (
     <div className="bg-black text-white text-center p-6 rounded-lg w-80 mx-auto">
       <img
-        src="/path/to/image.jpg"
+        src="profileGuy.png"
         alt="Profile"
         className="rounded-full w-24 h-24 mx-auto object-cover"
       />

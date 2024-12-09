@@ -6,22 +6,22 @@ const posts = [
   {
     date: 'June 22, 2020',
     description: 'Lorem ipsum dolor sit cing elit, sed do.',
-    image: '/path/to/image1.jpg',
+    image: '/image1.jpg',
   },
   {
     date: 'June 22, 2020',
     description: 'Lorem ipsum dolor sit cing elit, sed do.',
-    image: '/path/to/image2.jpg',
+    image: '/image2.jpg',
   },
   {
     date: 'June 22, 2020',
     description: 'Lorem ipsum dolor sit cing elit, sed do.',
-    image: '/path/to/image3.jpg',
+    image: '/choose6.png',
   },
   {
     date: 'June 22, 2020',
     description: 'Lorem ipsum dolor sit cing elit, sed do.',
-    image: '/path/to/image4.jpg',
+    image: '/menu4.png',
   },
 ];
 

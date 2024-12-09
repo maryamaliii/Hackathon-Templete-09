@@ -48,7 +48,7 @@ export default function Home() {
             {/* Left column - Text content */}
             <div className="flex flex-col space-y-6 lg:space-y-8 max-w-xl text-center lg:text-left">
               <span>
-              <Image src="/herotext.png" alt="logo" width={250} height={250} />
+              <Image src="/herotext.png" alt="logo" width={250} height={250}  />
               </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
                 <span className='text-[#F7A600]'>The</span> Art of speed 

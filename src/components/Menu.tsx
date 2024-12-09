@@ -22,43 +22,43 @@ const Menu = () => {
     },
     {
         image: '/menu2.png',
-        title: 'Lettuce Leaf',
+        title: 'Glow Cheese',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },
       {
         image: '/menu3.png',
-        title: 'Lettuce Leaf',
+        title: 'Fresh Breakfast',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },
       {
         image: '/menu4.png',
-        title: 'Lettuce Leaf',
+        title: 'Italian Pizza',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },{
         image: '/menu5.png',
-        title: 'Lettuce Leaf',
+        title: 'Mild Butter',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },
 
       {
         image: '/menu6.png',
-        title: 'Lettuce Leaf',
+        title: 'Sllice Beef',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },
       {
         image: '/menu7.png',
-        title: 'Lettuce Leaf',
+        title: 'Fresh Bread',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },
       {
         image: '/choosefood2.png',
-        title: 'Lettuce Leaf',
+        title: 'Mushaom Pizza',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'
       },

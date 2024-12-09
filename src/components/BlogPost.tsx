@@ -8,21 +8,21 @@ const BlogPost = () => {
       id: 1,
       image: '/choose2.png',
       date: '10 February 2022',
-      title: 'The Secret to Perfect Burger Making',
+      title: 'Pellentesque Non Efficitur Mi Aliquam Convallis Mi Quis',
       comments: 3
     },
     {
       id: 2,
       image: '/pizza.jpg',
       date: '10 February 2022',
-      title: 'The Art of Pizza Making',
+      title: 'Morbi Sodales Tellus Elit, In Blandit Risus Suscipit A',
       comments: 5
     },
     {
       id: 3,
       image: '/choose1.png',
       date: '10 February 2022',
-      title: 'Fresh Mexican Tacos',
+      title: 'Curabitur rutrum velit ac congue malesuada',
       comments: 4
     }
   ]

@@ -21,7 +21,7 @@ export default function BlogDetails() {
           <div className="lg:col-span-2 space-y-8">
             {/* Main Blog Image */}
             <div className="relative aspect-video">
-              <BlogPostCard image={"/blog1.png"} date={"2024-01-01"} comments={0} title={"10 Reasons To Do A Digital Detox Challenge"} description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."} slug={"10-reasons-to-do-a-digital-detox-challenge"} />
+              <BlogPostCard image={"/choose3.png"} date={"2024-01-01"} comments={0} title={"10 Reasons To Do A Digital Detox Challenge"} description={"Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."} slug={"10-reasons-to-do-a-digital-detox-challenge"} />
             </div>
 
             {/* Blog Content */}
@@ -132,7 +132,7 @@ export default function BlogDetails() {
                     {[1, 2, 3].map((index) => (
                       <div key={index} className="flex gap-4 p-4 border rounded-lg hover:shadow-md transition-shadow">
                         <Image 
-                          src='/comment.png'
+                          src='/john1.png'
                           alt={`Comment ${index}`} 
                           width={60} 
                           height={60}

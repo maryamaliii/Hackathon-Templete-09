@@ -6,27 +6,27 @@ const menuItems = [
   {
     name: 'Chicken Fry',
     count: 26,
-    image: '/path/to/chicken-fry.jpg',
+    image: '/chicken-fry.jpg',
   },
   {
     name: 'Burger Food',
     count: 46,
-    image: '/path/to/burger-food.jpg',
+    image: '/burger-food.jpg',
   },
   {
     name: 'Pizza',
     count: 16,
-    image: '/path/to/pizza.jpg',
+    image: '/pizza.jpg',
   },
   {
     name: 'Fresh Fruits',
     count: 36,
-    image: '/path/to/fresh-fruits.jpg',
+    image: '/fresh-fruit.jpg',
   },
   {
     name: 'Vegetables',
     count: 16,
-    image: '/path/to/vegetables.jpg',
+    image: '/aboutus3.png',
   },
 ];
 

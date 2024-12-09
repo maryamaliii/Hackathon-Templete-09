@@ -3,27 +3,27 @@ import Image from 'next/image';
 
 const galleryImages = [
   {
-    src: '/images/gallery/pizza.jpg',
+    src: '/pizza.jpg',
     alt: 'Delicious pizza with toppings',
   },
   {
-    src: '/images/gallery/dish.jpg',
+    src: '/menu6.png',
     alt: 'Gourmet dish presentation',
   },
   {
-    src: '/images/gallery/salmon.jpg',
+    src: '/aboutUs1.png',
     alt: 'Grilled salmon with vegetables',
   },
   {
-    src: '/images/gallery/bbq.jpg',
+    src: '/chicken-fry.jpg',
     alt: 'BBQ platter with sides',
   },
   {
-    src: '/images/gallery/appetizer.jpg',
+    src: '/aboutUs2.png',
     alt: 'Appetizer plate',
   },
   {
-    src: '/images/gallery/dessert.jpg',
+    src: '/cupcake.png',
     alt: 'French toast with fruits',
   },
 ];

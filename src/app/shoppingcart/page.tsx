@@ -11,11 +11,11 @@ interface CartItem {
 }
 
 const initialCartItems: CartItem[] = [
-  { name: "Burger", price: 10.99, quantity: 2, image: "/choose1.png" },
-  { name: "Fresh Lime", price: 3.49, quantity: 1, image: "/choose2.png" },
-  { name: "Pizza", price: 9.99, quantity: 4, image: "/choose3.png" },
-  { name: "Chocolate Muffin", price: 4.49, quantity: 1, image: "/choose4.png" },
-  { name: "Cheese Butter", price: 11.99, quantity: 3, image: "/choose5.png" },
+  { name: "Burger", price: 10.99, quantity: 2, image: "/burger.jpg" },
+  { name: "Fresh Lime", price: 3.49, quantity: 1, image: "/fresh lime.jpg" },
+  { name: "Pizza", price: 9.99, quantity: 4, image: "/donut.png" },
+  { name: "Chocolate Muffin", price: 4.49, quantity: 1, image: "/mufin.jpg" },
+  { name: "Cheese Butter", price: 11.99, quantity: 3, image: "/blog2.png" },
 ];
 
 const ShoppingCart: React.FC = () => {

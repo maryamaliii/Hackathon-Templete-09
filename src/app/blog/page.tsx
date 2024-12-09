@@ -6,7 +6,7 @@ import BlogSidebar from '@/components/BlogSidebar';
 // Blog posts data
 const blogPosts = [
     {
-        image: '/blog1.png',
+        image: '/choose.png',
         date: 'Feb 14 2022',
         comments: 3,
         title: '10 Reasons To Do A Digital Detox Challenge',
@@ -14,7 +14,7 @@ const blogPosts = [
         slug: 'digital-detox-challenge'
     },
     {
-        image: '/blog2.png',
+        image: '/pizza.jpg',
         date: 'Feb 14 2022',
         comments: 3,
         title: '10 Reasons To Do A Digital Detox Challenge',
@@ -30,7 +30,7 @@ const blogPosts = [
         slug: 'digital-detox-challenge'
     },
     {
-        image: '/blog4.png',
+        image: '/aboutUs3.png',
         date: 'Feb 14 2022',
         comments: 3,
         title: '10 Reasons To Do A Digital Detox Challenge',
