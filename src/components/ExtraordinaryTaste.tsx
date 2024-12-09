@@ -3,15 +3,7 @@ import Image from 'next/image'
 import { FaHamburger, FaCookieBite, FaWineGlass } from 'react-icons/fa'
 
 const ExtraordinaryTaste = () => {
-  const foodImages = [
-    { id: 1, image: '/choose1.png', className: 'col-span-2' },
-    { id: 2, image: '/choose2.png' },
-    { id: 3, image: '/choose3.png' },
-    { id: 4, image: '/choose4.png' },
-    { id: 5, image: '/choose5.png' },
-    { id: 6, image: '/choose6.png' },
-  ]
-
+ 
   const features = [
     { icon: <FaHamburger className="w-8 h-8" />, label: 'Fast Food' },
     { icon: <FaCookieBite className="w-8 h-8" />, label: 'Lunch' },
@@ -28,7 +20,7 @@ const ExtraordinaryTaste = () => {
             <div className="col-span-2 relative h-[280px]">
               <Image
                 src="/choose1.png"
-                alt="Food image"
+                alt="picture"
                 fill
                 className="rounded object-cover"
               />

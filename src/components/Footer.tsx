@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center   bg-black px-6 md:px-[135px] py-[50px] w-full">
         <div className="text-white md:w-[50%] w-full text-center md:text-left">
           <h2 className="text-[20px] md:text-[32px] font-semibold"><span className="text-[#FF9F0D]">St</span>ill Need Our Support ?</h2>
-          <p className="text-[10px] md:text-[16px] font-normal mt-[17px]">Don&#39;t wait, make a smart & logical decision now. It's easy.</p>
+          <p className="text-[10px] md:text-[16px] font-normal mt-[17px]">Don&#39;t wait, make a smart & logical decision now. It&apos;s easy.</p>
         </div>
 
         <div className="flex md:mt-0 mt-[20px]">

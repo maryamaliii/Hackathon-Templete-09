@@ -77,11 +77,11 @@ export default function SignUpPage() {
 
             <div className="space-y-3">
               <button className="w-full bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-4 border border-gray-300 rounded-md shadow-sm transition-colors duration-300 flex items-center justify-center space-x-2">
-                <Image src="/google.png" alt="Google" width={20} height={20} />
+                <Image src="/google.jpg" alt="Google" width={20} height={20} />
                 <span>Sign up with Google</span>
               </button>
               <button className="w-full bg-white hover:bg-gray-50 text-gray-700 font-medium py-3 px-4 border border-gray-300 rounded-md shadow-sm transition-colors duration-300 flex items-center justify-center space-x-2">
-                <Image src="/apple.png" alt="Apple" width={20} height={20} />
+                <Image src="/apple.jpg" alt="Apple" width={20} height={20} />
                 <span>Sign up with Apple</span>
               </button>
             </div>
