@@ -1,16 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { PiClockClockwiseBold } from "react-icons/pi";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube, FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <main className="flex flex-col bg-white dark:bg-black mt-[300px] items-center">
+    <main className="flex flex-col bg-white dark:bg-black items-center">
 
-      <div className="flex flex-col md:flex-row justify-between items-center bg-black px-6 md:px-[135px] py-[50px] w-full">
+      <div className="flex flex-col md:flex-row justify-between items-center   bg-black px-6 md:px-[135px] py-[50px] w-full">
         <div className="text-white md:w-[50%] w-full text-center md:text-left">
-          <h2 className="text-[20px] md:text-[32px] font-semibold"><span className="text-[#FF9F0D]">St</span>ill Need Our Support</h2>
+          <h2 className="text-[20px] md:text-[32px] font-semibold"><span className="text-[#FF9F0D]">St</span>ill Need Our Support ?</h2>
           <p className="text-[10px] md:text-[16px] font-normal mt-[17px]">Don&#39;t wait, make a smart & logical decision now. It's easy.</p>
         </div>
 
@@ -25,11 +24,11 @@ const Footer = () => {
       <div className="mx-auto w-full max-w-screen-xl">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-[30px] px-6 md:px-[135px] py-6 lg:py-8">
           <div>
-            <h2 className="mb-6 text-[24px] font-semibold uppercase text-white">About Us</h2>
+            <h2 className="mb-6 text-[24px] font-semibold uppercase text-white">About Us.</h2>
             <ul className="text-gray-500 font-medium">
               <li className="mb-4">
                 <p className="text-[#FFFFFF] text-[16px] font-normal hover:underline">
-                  Corporate clients and leisure travelers have relied on Groundlink for dependable, safe, and professional chauffeured car services in major cities worldwide.
+                orporate clients and leisure travelers hasbeen relying on Groundlink for dependablesafe, and professional chauffeured carservice in major cities across World.
                 </p>
               </li>
               <li className="flex gap-[16.5px]">
@@ -46,9 +45,9 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div>
+          <div className="px-5">
             <h2 className="mb-6 text-[24px] font-semibold uppercase text-white">Useful Links</h2>
-            <ul className="text-gray-500 font-medium">
+            <ul className="text-white font-medium">
               {['About', 'News', 'Partner', 'Team', 'Menu', 'Contact'].map((link, index) => (
                 <li key={index} className="mb-4">
                   <a href="#" className="hover:underline">{link}</a>
@@ -59,7 +58,7 @@ const Footer = () => {
 
           <div>
             <h2 className="mb-6 text-[24px] font-semibold uppercase text-white">Help?</h2>
-            <ul className="text-gray-500 font-medium">
+            <ul className="text-white font-medium">
               {['FAQ', 'Terms & Conditions', 'Reporting', 'Documentation', 'Support Policy', 'Privacy'].map((link, index) => (
                 <li key={index} className="mb-4">
                   <a href="#" className="hover:underline">{link}</a>
@@ -71,12 +70,13 @@ const Footer = () => {
           <div>
             <h2 className="mb-6 text-[24px] font-semibold uppercase text-white">Recent Post</h2>
             <ul className="text-gray-500 font-medium gap-[14px]">
-              {['Keep Your Business', 'Grow Your Network', 'Maximize Your Potential'].map((title, index) => (
+              {['Is fastfood good for your body?', 'Changes your food habit with organic food', 'Do you like fastfood for your life?'].map((title, index) => (
                 <li key={index} className="flex gap-[16.5px] mt-[14px]">
                   <Image src="/footer.png" alt="Food" height={100} width={100} />
                   <div className="ml-2">
-                    <h2 className="text-[12px] text-[#FFFFFF] font-normal">20 Feb 2022</h2>
-                    <h3 className="text-[14px] font-normal text-[#FFFFFF]">{title}</h3>
+                  <h2 className="text-[14px] font-normal text-[#FFFFFF]">{title}</h2>
+                    <h2 className="text-[12px] text-gray font-normal">February 28,2022</h2>
+                    
                   </div>
                 </li>
               ))}
@@ -85,8 +85,8 @@ const Footer = () => {
         </div>
 
         <div className="w-full px-4 py-6 bg-gray-100 dark:bg-[#4F4F4F] md:flex md:items-center md:justify-between">
-          <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2023 Flowbite™. All Rights Reserved.
+          <span className="text-sm text-[#FFFFFF] dark:text-gray-300 sm:text-center">
+           Copyright © 2022 by Ayeman. All Rights Reserved.
           </span>
 
           <div className="flex justify-center gap-[14px] mt-4 md:mt-0">

@@ -16,12 +16,12 @@ const FoodCategory = () => {
     },
     {
       id: 3,
-      image: '/chooseFood3.png',
+      image: '/chickensalad.png',
       title: 'Chicken Salad',
     },
     {
       id: 4,
-      image: '/chooseFood4.png',
+      image: '/donut.png',
       title: 'Dessert',
     },
   ]

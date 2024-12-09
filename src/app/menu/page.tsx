@@ -2,16 +2,14 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { IoChevronForwardOutline } from "react-icons/io5";
-import { FaPizzaSlice, FaHamburger, FaUtensils } from "react-icons/fa";
-import { GiChefToque } from "react-icons/gi";
 import Statistics from '@/components/Statistics';
 import PageHeader from '@/components/PageHeader';
+
 
 export default function Menu() {
   return (
     <div>
-      
+  
       <div className="bg-white min-h-screen flex flex-col items-center">
         {/* Header */}
        <PageHeader
@@ -23,7 +21,7 @@ export default function Menu() {
         {/* Starter Menu */}
         <section className="w-full max-w-4xl my-12 px-4 flex flex-col md:flex-row gap-8 items-center">
           <Image
-            src="/menupage1.png"
+            src="/starter.png"
             alt="Starter Menu"
             width={400}
             height={200}
@@ -108,7 +106,7 @@ export default function Menu() {
             </ul>
           </div>
           <Image
-            src="/menupage2.png"
+            src="/maincourse.png"
             alt="Main Course"
             width={400}
             height={300}
@@ -121,7 +119,7 @@ export default function Menu() {
         {/* Dessert */}
         <section className="w-full max-w-4xl my-12 px-4 flex flex-col md:flex-row gap-8 items-center">
           <Image
-            src="/menupage3.png"
+            src="/cupcake.png"
             alt="Dessert"
             width={400}
             height={300}
@@ -206,7 +204,7 @@ export default function Menu() {
             </ul>
           </div>
           <Image
-            src="/menupage4.png"
+            src="/drink.png"
             alt="Drinks"
             width={400}
             height={300}
@@ -214,6 +212,56 @@ export default function Menu() {
           />
         </section>
       </div>
+        {/* Partners Section */}
+<section className="py-12 bg-white text-black text-center">
+  <h4 className="font-Inter text-base md:text-lg">Partners & Clients</h4>
+  <h2 className="text-2xl md:text-4xl font-bold mb-8">We work with the best people</h2>
+  <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6 items-center justify-center">
+    <Image
+      src="/partner1.png"
+      alt="Partner 1"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+    <Image
+      src="/partner2.png"
+      alt="Partner 2"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+    <Image
+      src="/partner3.png"
+      alt="Partner 3"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+    <Image
+      src="/partner4.png"
+      alt="Partner 4"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+    <Image
+      src="/partner5.png"
+      alt="Partner 5"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+    <Image
+      src="/partner6.png"
+      alt="Partner 6"
+      width={100}
+      height={50}
+      className="mx-auto"
+    />
+  </div>
+</section>
+
     </div>
   );
 } 

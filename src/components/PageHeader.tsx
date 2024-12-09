@@ -14,7 +14,7 @@ export default function PageHeader({ title, currentPage  }: PageHeaderProps) {
     <header className="relative bg-black w-full">
       <div className="h-[300px] md:h-[400px] bg-cover bg-center relative">
         <Image
-          src={'/upper.png'}
+          src={'/pageheader.png'}
           alt={`${currentPage} Header`}
           fill
           className="object-cover"

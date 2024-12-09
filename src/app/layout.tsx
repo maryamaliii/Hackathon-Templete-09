@@ -1,19 +1,28 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Great_Vibes } from "next/font/google";
 import "./globals.css";
+import Navbar from "./Shared/Navbar";
 import Footer from "@/components/Footer";
 
-import Navbar from "./Shared/Navbar";
-
+// Local fonts
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
   weight: "100 900",
 });
+
 const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+
+// Google Font: Great Vibes
+const greatVibes = Great_Vibes({
+  weight: "400", // Only regular weight available
+  subsets: ["latin"], // Ensure support for Latin characters
+  variable: "--font-great-vibes",
 });
 
 export const metadata: Metadata = {
@@ -29,11 +38,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${greatVibes.variable} antialiased`}
       >
-        <Navbar/>
+        <Navbar />
         {children}
-        <Footer/>
+        <Footer />
       </body>
     </html>
   );

@@ -17,11 +17,12 @@ const About = () => {
           <div className="flex flex-col justify-between lg:h-[570px] mb-8 lg:mb-0">
             <div className="space-y-6">
               <div>
-                <h3 className="text-[#FF9F0D] font-great-vibes text-3xl mb-4">
+                <h3 className="text-[#FF9F0D] font-Great_Vibes text-3xl mb-4">
                   About us
                 </h3>
-                <h2 className="text-[#FF9F0D] text-5xl font-bold leading-tight">
-                  We Create the best
+                <h2 className="text-white text-5xl font-bold leading-tight">
+                  <span className='text-[#F7A600]'>
+                  We</span> Create the best
                   <br /> foody product
                 </h2>
               </div>

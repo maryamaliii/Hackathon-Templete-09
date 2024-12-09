@@ -45,9 +45,9 @@ const Hero = () => {
               <span className='text-[#F7A600]'>The</span> Art of speed 
               <br className="hidden sm:block" /> food Quality   
             </h1>
-            <p className="text-gray-300 text-base md:text-lg lg:text-xl max-w-2xl">
+            <p className="text-white text-base md:text-lg lg:text-xl max-w-2xl">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Varius sed pharetra dictum neque massa congue
+               <br />Varius sed pharetra dictum neque massa congue
             </p>  
             <div className="flex justify-center lg:justify-start w-full">
               <Button size="lg">

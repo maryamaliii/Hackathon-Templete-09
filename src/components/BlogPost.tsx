@@ -6,21 +6,21 @@ const BlogPost = () => {
   const blogPosts = [
     {
       id: 1,
-      image: '/choose1.png',
+      image: '/choose2.png',
       date: '10 February 2022',
       title: 'The Secret to Perfect Burger Making',
       comments: 3
     },
     {
       id: 2,
-      image: '/choose2.png',
+      image: '/pizza.jpg',
       date: '10 February 2022',
       title: 'The Art of Pizza Making',
       comments: 5
     },
     {
       id: 3,
-      image: '/choose6.png',
+      image: '/choose1.png',
       date: '10 February 2022',
       title: 'Fresh Mexican Tacos',
       comments: 4

@@ -6,10 +6,10 @@ import ExtraordinaryTaste from "@/components/ExtraordinaryTaste";
 import Statistics from "@/components/Statistics";
 import Menu from "@/components/Menu";
 import FoodTeam from "@/components/FoodTeam";
-import DessertMenu from "@/components/DessertMenu";
 import Testimonials from "@/components/Testimonials";
 import RestaurantProcess from "@/components/RestaurantProcess";
 import BlogPost from "@/components/BlogPost";
+
 
 
 
@@ -47,7 +47,9 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row items-center justify-between h-full py-20 lg:py-0 gap-10 lg:gap-0">
             {/* Left column - Text content */}
             <div className="flex flex-col space-y-6 lg:space-y-8 max-w-xl text-center lg:text-left">
-              
+              <span>
+              <Image src="/herotext.png" alt="logo" width={250} height={250} />
+              </span>
               <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-white leading-tight">
                 <span className='text-[#F7A600]'>The</span> Art of speed 
                 <br className="hidden sm:block" /> food Quality   

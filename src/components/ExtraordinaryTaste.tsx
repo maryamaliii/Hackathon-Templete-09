@@ -53,7 +53,7 @@ const ExtraordinaryTaste = () => {
             </div>
             <div className="relative h-[200px]">
               <Image
-                src="/choose4.png"
+                src="/maincourse.png"
                 alt="Food image"
                 fill
                 className="rounded object-cover"
