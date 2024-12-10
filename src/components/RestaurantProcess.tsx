@@ -9,7 +9,7 @@ const RestaurantProcess = () => {
       {/* Background Image */}
       <div className="absolute inset-0 z-0 ">
         <Image 
-          src="/bottmBg.png" 
+          src="/bottmbg.png" 
           alt="Process background" 
           fill
           className="object-cover"

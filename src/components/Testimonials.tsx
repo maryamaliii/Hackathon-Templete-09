@@ -1,43 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { FaQuoteRight, FaStar } from 'react-icons/fa'
-
-const Testimonials = () => {
-  const testimonials = [
-    {
-      id: 1,
-      image: '/testimonial1.png',
-      name: 'Alamin Hasan',
-      role: 'Food Specialist',
-      rating: 4,
-      text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
-    },
-    {
-        id: 2,
-        image: '/testimonial1.png',
-        name: 'Alamin Hasan',
-        role: 'Food Specialist',
-        rating: 4,
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
-      },
-      {
-        id: 3,
-        image: '/testimonial1.png',
-        name: 'Alamin Hasan',
-        role: 'Food Specialist',
-        rating: 4,
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
-    },
-    {
-        id: 4,
-        image: '/testimonial1.png',
-        name: 'Alamin Hasan',
-        role: 'Food Specialist',
-        rating: 4,
-        text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.'
-      }
-    // Add more testimonials for carousel
-  ]
+ export default function Testimonal(){
 
   return (
     <section className="py-24 bg-transparent relative overflow-hidden">
@@ -51,74 +15,32 @@ const Testimonials = () => {
         </h1>
 
         {/* Testimonial Card */}
-        <div className="max-w-3xl mx-auto text-center bg-white rounded-xl p-12">
+        <div className="max-w-3xl mx-auto text-center bg-white rounded-xl p-6">
             
           {/* Quote Icon */}
             {/* Quote Icon */}
-          <div className="flex justify-center mb-8 ">
+          <div className="flex justify-center mb-5 ">
+            <legend>
               <Image src="/test1.png" alt="quote" width={80} height={80} className="object-contain" />
+              </legend>
           </div>
-          <div className="flex justify-center mb-8">
-            <FaQuoteRight className="text-[#FF9F0D] text-5xl" />
+          <div className="flex justify-center mb-5">
+          <FaQuoteRight className="text-[#FF9F0D] text-5xl" />
           </div>
-
-          {/* Testimonial Content */}
-          <div className="mb-8">
-            <p className="text-gray-600 text-lg leading-relaxed mb-8">
-              {testimonials[0].text}
-            </p>
-
-            {/* Profile Image */}
-            <div className="w-24 h-24 mx-auto mb-4 relative">
-              <Image
-                src={testimonials[0].image}
-                alt={testimonials[0].name}
-                fill
-                className="rounded-full object-cover"
-              />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque diam pellentesque bibendum non dui volutpat fringilla bibendum. Urna, elit augue urna, vitae feugiat pretium donec id elementum. Ultrices mattis sed vitae mus risus. Lacus nisi, et ac dapibus sit eu velit in consequat.</p>
+           
+            <div className='flex justify-center mt-5'>
+            <span className="text-yellow-600 text-2xl">⭐⭐⭐⭐⭐</span>
+             </div>
+            <div className='flex justify-center mt-5'>
+            <span className='font-bold text-3xl'>Alamin Hasan</span>
             </div>
-
-            {/* Rating Stars */}
-            <div className="flex justify-center gap-1 mb-4">
-              {[...Array(5)].map((_, index) => (
-                <FaStar
-                  key={index}
-                  className={`text-2xl ${
-                    index < testimonials[0].rating
-                      ? 'text-[#FF9F0D]'
-                      : 'text-gray-300'
-                  }`}
-                />
-              ))}
+            <div className='flex justify-center mt-3'>
+              <span className='font-light text-2xl '>Food Specialist</span>
             </div>
-
-            {/* Name and Role */}
-            <h4 className="text-2xl font-bold mb-2">
-              {testimonials[0].name}
-            </h4>
-            <p className="text-gray-500">
-              {testimonials[0].role}
-            </p>
-          </div>
-
-          {/* Carousel Dots */}
-          <div className="flex justify-center gap-2">
-            {[...Array(4)].map((_, index) => (
-              <button
-                key={index}
-                className={`w-3 h-3 rounded-full ${
-                  index === 0
-                    ? 'bg-[#FF9F0D]'
-                    : 'bg-[#FF9F0D]/20'
-                }`}
-                aria-label={`Go to slide ${index + 1}`}
-              />
-            ))}
-          </div>
-        </div>
-      </div>
-    </section>
+            
+           </div>
+           </div>
+           </section>
   )
 }
-
-export default Testimonials 

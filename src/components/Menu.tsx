@@ -57,7 +57,7 @@ const Menu = () => {
         price: '12.5'
       },
       {
-        image: '/choosefood2.png',
+        image: '/chooseFood3.png',
         title: 'Mushaom Pizza',
         description: 'Lacus nisi, et ac dapibus velit in consequat.',
         price: '12.5'

@@ -19,7 +19,7 @@ const Statistics = () => {
       label: "Years Of Experienced"
     },
     {
-      icon: '/pizza.svg',
+      icon: '/https://www.figma.com/design/oymje57ZSxjd70yDAFgyyw/Elite---Food-Restaurant-%26-Coffee-Free-Figma-Template-(Community)-(Community)-(Copy)-(Copy)?node-id=308-11662&t=UPVOhVB4Cagf3Jpr-4',
       number: "220",
       label: "Happy Customers"
     }
