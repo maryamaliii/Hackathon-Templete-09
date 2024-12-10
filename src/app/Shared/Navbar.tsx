@@ -165,7 +165,7 @@ const Navbar: React.FC = () => {
             {/* Mobile Menu */}
             <div className={`md:hidden w-full transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
                 <div className="flex flex-col space-y-4 mt-4">
-                    <Link href="/home" className='hover:text-yellow-500 text-white'>
+                    <Link href="/" className='hover:text-yellow-500 text-white'>
                         Home
                     </Link>
                     <Link href="/menu" className='hover:text-yellow-500 text-white'>

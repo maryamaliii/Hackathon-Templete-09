@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { IoPlayOutline } from "react-icons/io5";
 import PageHeader from "@/components/PageHeader";
-import Header from "@/components/Allheader";
+
 
 // Import images
 
@@ -13,7 +13,6 @@ export default function About() {
   return (
     
     <div className="bg-white">
-      <Header/>
       <PageHeader 
         title="About Us"
         currentPage="About" 
