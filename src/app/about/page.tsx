@@ -52,7 +52,7 @@ export default function About() {
           <div className="w-full md:w-[35%] flex flex-col space-y-6 mt-10 md:mt-0">
             <div className="relative w-full aspect-[4/3] rounded-lg overflow-hidden">
               <Image
-                src={'/lemon.png'}
+                src="/tikka.png"
                 alt="Lemon dish"
                 className="object-cover"
                 fill
@@ -61,7 +61,7 @@ export default function About() {
             <div className="flex gap-6">
               <div className="relative w-1/2 aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
-                  src={'/yougurt.png'}
+                  src="/pizza.jpg"
                   alt="Yogurt dish"
                   className="object-cover"
                   fill
@@ -69,7 +69,7 @@ export default function About() {
               </div>
               <div className="relative w-1/2 aspect-[4/3] rounded-lg overflow-hidden">
                 <Image
-                  src={'/pasta.png'}
+                  src="/menu6.png"
                   alt="Pasta dish"
                   className="object-cover"
                   fill
@@ -91,7 +91,7 @@ export default function About() {
           </div>
           <div className="relative w-full aspect-[21/9] rounded-lg overflow-hidden">
             <Image
-              src={'/thirdSection.png'}
+              src="/blog3.png"
               alt="Why Choose Us"
               className="object-cover"
               fill
@@ -109,7 +109,7 @@ export default function About() {
               <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative w-full h-48 flex items-center justify-center">
                   <Image
-                    src={'/Student.png'}
+                    src="/chef2.png"
                     alt="Best Chef"
                     className="object-cover"
                     width={100}
@@ -130,7 +130,7 @@ export default function About() {
               <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative w-full h-48 flex items-center justify-center">
                   <Image
-                    src={'/Coffee.png'}
+                    src="/chef2.png"
                     alt="120 Item Food"
                     className="object-cover"
                     width={100}
@@ -151,7 +151,7 @@ export default function About() {
               <div className="h-full border-2 border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
                 <div className="relative w-full h-48 flex items-center justify-center">
                   <Image
-                    src={'/Person.png'}
+                    src="/chef2.png"
                     alt="Clean Environment"
                     className="object-cover"
                     width={100}

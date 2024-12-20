@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Statistics = () => {
+const Statistics: React.FC = () => {
   const stats = [
     {
       icon: '/Cheifhat.svg',
@@ -19,7 +19,7 @@ const Statistics = () => {
       label: "Years Of Experienced"
     },
     {
-      icon: '/https://www.figma.com/design/oymje57ZSxjd70yDAFgyyw/Elite---Food-Restaurant-%26-Coffee-Free-Figma-Template-(Community)-(Community)-(Copy)-(Copy)?node-id=308-11662&t=UPVOhVB4Cagf3Jpr-4',
+      icon: '/Group.png',
       number: "220",
       label: "Happy Customers"
     }
@@ -46,18 +46,21 @@ const Statistics = () => {
           {stats.map((stat, index) => (
             <div key={index} className="text-center">
               <div className="inline-block">
-                <div className="w-24 h-24 rounded-full border-2 border-[#FF9F0D] flex items-center justify-center mb-4 mx-auto backdrop-blur-sm bg-white/10">
-                  <div className="text-[#FF9F0D]">
-                    <Image src={stat.icon} alt={stat.label} width={100} height={100} />
-                  </div>
+                <div className="text-[#FF9F0D]">
+                  <Image 
+                    src={stat.icon} 
+                    alt={stat.label} 
+                    width={100} 
+                    height={100} 
+                  />
                 </div>
-                <h3 className="text-4xl font-bold text-white mb-2">
-                  {stat.number}
-                </h3>
-                <p className="text-white text-lg">
-                  {stat.label}
-                </p>
               </div>
+              <h3 className="text-4xl font-bold text-white mb-2">
+                {stat.number}
+              </h3>
+              <p className="text-white text-lg">
+                {stat.label}
+              </p>
             </div>
           ))}
         </div>
@@ -66,4 +69,4 @@ const Statistics = () => {
   )
 }
 
-export default Statistics 
+export default Statistics;
